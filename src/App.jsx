@@ -2,6 +2,7 @@
 import './App.css'
 import Introducao from './components/Introducao'
 import Foto from './img/elias.png'
+import Foto2 from './img/elias2.png'
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
 
     <>
 
-      <Introducao img={Foto}/> 
+      <Introducao img={Foto} img2={Foto2} /> 
 
+     
 
 
       

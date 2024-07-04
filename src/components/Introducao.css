@@ -85,3 +85,36 @@ h2{
     background: #00ff80e0;
     transition: 0.8s;
 }
+
+
+/* ------------------ Sobre mim ------------------------ */
+
+ .sobremim{
+  margin-top: 120px; 
+  display: flex;
+ }
+
+ .title1{
+    font-size: 55px;
+ }
+
+ p{
+    font-size: 22px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    text-align: start;
+ }
+
+ .linha1{
+    height: 3px;
+    width: 250px;
+    border: none;
+    margin-right: 500px;
+    background: #00FF7F;
+ }
+
+ .img2{
+    height: 500px; 
+ }
+
+ 
