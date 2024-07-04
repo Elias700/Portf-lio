@@ -1,0 +1,87 @@
+
+*{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body{
+   background: rgba(0, 0, 0); 
+}
+
+.cabeçalho ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-right: 100px;
+}
+
+li{
+    font-size: 16px;
+    color: #00FF7F;
+    cursor: pointer;
+    text-underline-offset: 10px;
+}
+
+li:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.7s;
+    text-decoration-color: #00FF7F;
+}
+
+span{
+    margin-right: 500px;
+    font-size: 20px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #00FF7F;
+    cursor: pointer;
+}
+
+hr{
+    background: #000;
+    background: green;
+}
+
+#foto1{
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ajuste{
+    display: flex;
+}
+
+h1{
+    margin-left: 220px;
+    margin-top: 110px;
+    font-size: 40px;
+    color: #00FF7F;
+}
+
+h2{
+    margin-left: 110px;
+    margin-top: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+.botao{
+    margin-left: 200px;
+    margin-top: 10px;
+    padding: 20px 80px;
+    font-size: 30px;
+    font-family: OCR A Std, monospace;
+    cursor: pointer;
+    border-radius:  10px;
+    border: none;
+    color: white;
+    background: #00ff80b4;
+}
+
+.botao:hover{
+    background: #00ff80e0;
+    transition: 0.8s;
+}
