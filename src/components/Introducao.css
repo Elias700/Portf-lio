@@ -1,35 +1,34 @@
-
-*{
+* {
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
-body{
-   background: rgba(0, 0, 0); 
+body {
+    background: rgba(0, 0, 0);
 }
 
-.cabeçalho ul{
+.cabeçalho ul {
     list-style: none;
     display: flex;
     justify-content: end;
-    gap: 15px;
+    gap: 25px;
     margin-right: 100px;
 }
 
-li{
+li {
     font-size: 16px;
     color: #00FF7F;
     cursor: pointer;
     text-underline-offset: 10px;
 }
 
-li:hover{
+li:hover {
     color: white;
     text-decoration: underline;
     transition: 0.7s;
     text-decoration-color: #00FF7F;
 }
 
-span{
+span {
     margin-right: 500px;
     font-size: 20px;
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -37,12 +36,12 @@ span{
     cursor: pointer;
 }
 
-hr{
+hr {
     background: #000;
     background: green;
 }
 
-#foto1{
+#foto1 {
     height: 400px;
     margin-left: 150px;
     margin-top: 70px;
@@ -50,71 +49,318 @@ hr{
     cursor: pointer;
 }
 
-.ajuste{
+.ajuste {
     display: flex;
 }
 
-h1{
+h1 {
     margin-left: 220px;
     margin-top: 110px;
     font-size: 40px;
     color: #00FF7F;
 }
 
-h2{
+h2 {
     margin-left: 110px;
     margin-top: 20px;
     font-size: 45px;
     color: white;
 }
 
-.botao{
+.botao {
     margin-left: 200px;
     margin-top: 10px;
     padding: 20px 80px;
     font-size: 30px;
     font-family: OCR A Std, monospace;
     cursor: pointer;
-    border-radius:  10px;
+    border-radius: 10px;
     border: none;
     color: white;
     background: #00ff80b4;
 }
 
-.botao:hover{
+.botao:hover {
     background: #00ff80e0;
     transition: 0.8s;
 }
 
 
-/* ------------------ Sobre mim ------------------------ */
+/* ------------------ Sobre ------------------------ */
 
- .sobremim{
-  margin-top: 120px; 
-  display: flex;
- }
+.sobremim {
+    margin-top: 120px;
+    display: flex;
+}
 
- .title1{
+.title1 {
     font-size: 55px;
- }
+}
 
- p{
+p {
     font-size: 22px;
     margin-left: 80px;
     margin-bottom: 50px;
     text-align: start;
- }
+}
 
- .linha1{
+.linha1 {
     height: 3px;
-    width: 250px;
+    width: 180px;
     border: none;
     margin-right: 500px;
     background: #00FF7F;
- }
+}
 
- .img2{
-    height: 500px; 
- }
+.imagemElias {
+    height: 500px;
+}
 
- 
+/* ------------- Habilidades -------------- */
+
+.habilidades {
+    background: white;
+    height: 250px;
+}
+
+.title2{
+    text-align: center;
+    color: #00FF7F;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html {
+    color: red;
+    font-size: 100px;
+    margin-left: 30PX;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 80%;
+    border: 5px solid #00FF7F;
+    background: #000;
+}
+
+.html:hover{
+    transform: scale(1.2);
+}
+
+.css{
+    color: rgb(12, 34, 225);
+    font-size: 100px;
+    margin-left: 30PX;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 80%;
+    border: 5px solid #00FF7F;
+    background: #000;
+}
+
+.css:hover{
+    transform: scale(1.2);
+}
+
+.javascript{
+    color: rgb(202, 227, 13);
+    font-size: 100px;
+    margin-left: 30PX;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 80%;
+    border: 5px solid #00FF7F;
+    background: #000;
+}
+
+.javascript:hover{
+    transform: scale(1.2);
+}
+
+.react{
+    color: rgb(11, 162, 212);
+    font-size: 100px;
+    margin-left: 30PX;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 80%;
+    border: 5px solid #00FF7F;
+    background: #000;
+}
+
+.react:hover{
+    transform: scale(1.2);
+}
+
+.git{
+    color: rgb(212, 75, 11);
+    font-size: 100px;
+    margin-left: 30PX;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 80%;
+    border: 5px solid #00FF7F;
+    background: #000;
+}
+
+.git:hover{
+    transform: scale(1.2);
+}
+
+.github{
+    color: rgb(26, 47, 210);
+    font-size: 100px;
+    margin-left: 30PX;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 80%;
+    border: 5px solid #00FF7F;
+    background: #000;
+}
+
+.github:hover{
+    transform: scale(1.2);
+}
+
+/* --------Projetos ------------*/
+
+/* Projeto 1*/
+
+.background{
+    background: #000;
+}
+
+.ajusteProjeto1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.title3{
+    text-align: center;
+    color: #00FF7F;
+}
+
+.img1{
+    height: 250px;
+    width: 400px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.img1:hover{
+    transform: scale(1.1);
+}
+
+.subtitle{
+    color: #00FF7F;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+/* Projeto 2*/
+
+.img2{
+    height: 250px;
+    width: 400px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img2:hover{
+    transform: scale(1.1);
+}
+
+.subtitle2{
+    color: #00FF7F;
+    font-size: 30px;
+}
+
+.ajusteProjeto2{
+display: flex;
+justify-content: space-evenly;
+margin-top: 150px;
+}
+
+/* Projeto 3*/
+
+.ajusteProjeto3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.img3{
+    height: 250px;
+    width: 400px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img3:hover{
+    transform: scale(1.1);
+}
+
+.subtitle3{
+    color: #00FF7F;
+    font-size: 30px;
+}
+
+/* Contato*/
+
+.contato{
+    background: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title4{
+    text-align: center;
+    color: #00FF7F;
+    font-size: 30px;
+}
+
+.email{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+    margin-left: 500px;
+}
+
+.numero{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+    margin-left: 550px;
+    margin-top: 15px;
+}
+
+.icons1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.icoins{
+    font-size: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.icoins:hover{
+    color: #00FF7F;
+    transition: 0.5s;
+}
+
+.final{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 50px;
+}
